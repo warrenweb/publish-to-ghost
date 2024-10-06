@@ -1,6 +1,5 @@
-# Send to Ghost
-
-A maintained fork of Jay Nguyen's [obsidian-ghost-publish](https://github.com/jaynguyens/obsidian-ghost-publish). It allows you to send Obsidian notes to the [Ghost](https://ghost.org) blogging software, either as published or draft posts.
+# Publish to Ghost
+It allows you to send Obsidian notes to the [Ghost](https://ghost.org) publishing platform, either as published or draft posts or pages.
 
 ## Usage
 
@@ -47,6 +46,14 @@ This plugin uses PNPM for dependency management.
 -   Run `pnpm build`
 -   Copy `main.js` and `manifest.json` to `VaultFolder/.obsidian/plugins/send-to-ghost/` where `Vaultfolder` is the location of your Obsidian vault.
 
-## Issues & Support
+## Change log
+2024-10-06: I created this fork for my Publish to Ghost plugin to help publish my Obsidian notes on a Ghost website as posts and pages. The previous plugins only allowed you to create blog posts from Obsidian notes, and not pages. 
 
-If you find a bug, please submit an [issue](https://github.com/Southpaw1496/obsidian-send-to-ghost). Otherwise, please contact me via [my website](https://southpaw1496.me).
+This was forked [Obsidian Send to Ghost](https://github.com/Southpaw1496/obsidian-send-to-ghost) by [Southpaw1496](https://southpaw1496.me), which is still being maintained.
+
+That was forked from an earlier [obsidian-ghost-publish](https://github.com/jaynguyens/obsidian-ghost-publish) plugin by Jay Nguyen that is no longer available.
+
+## Issues & Support
+If you find a bug, please submit an [issue](https://github.com/warrenweb/publish-to-ghost). Otherwise, please contact me via [WarrenWeb](https://blog.warrenweb.net/contact).
+
+For the earlier fork, Obsidian Send to Ghost, submit any bugs at [issue](https://github.com/Southpaw1496/obsidian-send-to-ghost), and please contact him via [my website](https://southpaw1496.me).
